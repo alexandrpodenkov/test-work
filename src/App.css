@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin: 40px 0 0 40px;
+}
+
+.params-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+}
+
+.input-contianer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
