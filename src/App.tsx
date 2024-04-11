@@ -92,11 +92,9 @@ const ParamEditor: React.FC<Props> = ({ model, params }) => {
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.code === 'Enter' && e.currentTarget.name === 'purpose') {
       setPurposeInputValue(purposeInputValue);
-      console.log(getModel());
     }
     if (e.code === 'Enter' && e.currentTarget.name === 'length') {
       setLengthInputValue(lengthInputValue);
-      console.log(getModel());
     }
   }
 
